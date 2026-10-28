@@ -1,0 +1,33 @@
+{
+    "version": "0.81.0",
+    "description": "Terminal dashboard and JSON CLI for AI-provider usage, quotas and costs",
+    "homepage": "https://github.com/jmarcon/cuotai",
+    "license": "MIT OR Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jmarcon/cuotai/releases/download/v0.81.0/cuotai-0.81.0-x86_64-pc-windows-msvc.zip",
+            "hash": "a46db5d05c996df940c634d6568bfaacc38bcded8ede1120d91b8217800f5d9f"
+        },
+        "arm64": {
+            "url": "https://github.com/jmarcon/cuotai/releases/download/v0.81.0/cuotai-0.81.0-aarch64-pc-windows-msvc.zip",
+            "hash": "552b634a26a7233a206e96a678f3ee16391d291ac7d2c8af9cc54635c67bd579"
+        }
+    },
+    "bin": "cuotai.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jmarcon/cuotai/releases/download/v$version/cuotai-$version-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/jmarcon/cuotai/releases/download/v$version/cuotai-$version-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    },
+    "notes": [
+        "Shell completions for PowerShell: cuotai --completions powershell | Out-String | Invoke-Expression",
+        "Uninstalling (scoop uninstall cuotai) removes only the binary; the configuration,",
+        "the local databases and the Windows Credential Manager entries are preserved."
+    ]
+}
