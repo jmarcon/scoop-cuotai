@@ -1,16 +1,16 @@
 {
-    "version": "0.84.11",
+    "version": "0.85.0",
     "description": "Terminal dashboard and JSON CLI for AI-provider usage, quotas and costs",
     "homepage": "https://github.com/jmarcon/cuotai",
     "license": "MIT OR Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jmarcon/cuotai/releases/download/v0.84.11/cuotai-0.84.11-x86_64-pc-windows-msvc.zip",
-            "hash": "3e341c385abe9baa154f742d03ae529623657fa9768db7822a147ff69ca1c45f"
+            "url": "https://github.com/jmarcon/cuotai/releases/download/v0.85.0/cuotai-0.85.0-x86_64-pc-windows-msvc.zip",
+            "hash": "0c64d2de4e1cd5eba771d2ca5f67f49bd2ee16ec252a3d4f6f80881d99b3d7ec"
         },
         "arm64": {
-            "url": "https://github.com/jmarcon/cuotai/releases/download/v0.84.11/cuotai-0.84.11-aarch64-pc-windows-msvc.zip",
-            "hash": "a7b3f36ef2db4d4943a809374958652dd8ca0846f6696b028efee98f8f8fb5ab"
+            "url": "https://github.com/jmarcon/cuotai/releases/download/v0.85.0/cuotai-0.85.0-aarch64-pc-windows-msvc.zip",
+            "hash": "7de3a91708e82330f5fceea959d4f00561a3b4da97b6ab1abe8b7f4fa0fe2879"
         }
     },
     "bin": "cuotai.exe",
